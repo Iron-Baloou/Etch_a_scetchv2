@@ -34,5 +34,5 @@ The application is compatible with modern web browsers that support HTML5, CSS3,
 
 ## Credits
 
-This project was created by [Your Name]. Feel free to reach out to me at [your.email@example.com] if you have any questions or feedback.
+This project was created by Baloou.
 
