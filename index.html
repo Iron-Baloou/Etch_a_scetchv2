@@ -8,13 +8,23 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1 class="page-heading">E<span>t</span>c<span>h</span>-<span>a</span>-Sc<span>e</span>t<span>c</span>h</h1>
+    <h1 class="page-heading">E<span>t</span>c<span>h</span>-<span>a</span>-<span>S</span>c<span>e</span>t<span>c</span>h</h1>
+    <button id="raster">Rastergroesse Eingabe</button>
     <div class="colorchange">
         <button class="colorbtn" id="red">Red</button>
         <button class="colorbtn" id="black">Black</button>
         <button class="colorbtn" id="randomcolor">Rdm</button>
+        
     </div>
-    <button id="raster">Rastergroesse Eingabe</button>
+    <div class="rgb_change">
+        <input type="text" class="form-control mb-1" placeholder="Rot" id="rot">
+        <input type="text" class="form-control mb-1" placeholder="Gruen" id="gruen">
+        <input type="text" class="form-control mb-1" placeholder="Blau" id="blau">
+        <button class="rgb_choice" id="idrgb">RGB</button>
+        <div id="warning"></div>
+      </div>
+
+    
     <button id="reset">Reset/Start</button>
     
     <div id="drawpad" class="container"></div>
